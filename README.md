@@ -33,7 +33,7 @@ brew install arm-none-eabi-gcc
 2.	Label and record data for different gestures (e.g., idle, up-down, left-right, forward-backward).
 3.	Design the ML model using Spectral Analysis processing and train the neural network with the collected data.
 <br>
-## Deploying the ML Model
+### Deploying the ML Model
 1.	Deploy the trained model to the Raspberry Pi Pico by building a C++ library in Edge Impulse.
 <br>
 2.	Open the serial monitor to see the output predictions for different gestures.
