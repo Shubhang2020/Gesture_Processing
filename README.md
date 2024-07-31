@@ -28,11 +28,12 @@ brew tap ArmMbed/homebrew-formulae
 brew install arm-none-eabi-gcc
 
 
-Collecting Data and Training the Model Using Edge Impulse
+## Collecting Data and Training the Model Using Edge Impulse
 1.	Log in to Edge Impulse, create a new project, and use the Data forwarder to collect accelerometer data.
 2.	Label and record data for different gestures (e.g., idle, up-down, left-right, forward-backward).
 3.	Design the ML model using Spectral Analysis processing and train the neural network with the collected data.
-Deploying the ML Model
+<br>
+## Deploying the ML Model
 1.	Deploy the trained model to the Raspberry Pi Pico by building a C++ library in Edge Impulse.
 2.	Open the serial monitor to see the output predictions for different gestures.
 
