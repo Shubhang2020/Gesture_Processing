@@ -35,5 +35,6 @@ brew install arm-none-eabi-gcc
 <br>
 ## Deploying the ML Model
 1.	Deploy the trained model to the Raspberry Pi Pico by building a C++ library in Edge Impulse.
+<br>
 2.	Open the serial monitor to see the output predictions for different gestures.
 
